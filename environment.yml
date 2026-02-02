@@ -9,3 +9,4 @@ dependencies:
   - pip
   - pip:
       - webdriver-manager
+      - python-dotenv
