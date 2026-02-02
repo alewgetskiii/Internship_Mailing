@@ -16,9 +16,9 @@ from collections import OrderedDict
 # === Configuration rapide ===
 LINKEDIN_EMAIL = os.getenv("LINKEDIN_EMAIL", "alexandre-gerard@live.fr")
 LINKEDIN_PASSWORD = os.getenv("LINKEDIN_PASSWORD", "")
-COMPANY_NAME = os.getenv("LINKEDIN_COMPANY_NAME", "Touton")
-COMPANY_ID = os.getenv("LINKEDIN_COMPANY_ID", "9183372")
-JOB_TITLES = [t.strip() for t in os.getenv("LINKEDIN_JOB_TITLES", "Trader").split(",") if t.strip()]
+COMPANY_NAME = "Touton" # Nom de l'entreprise telle qu'elle apparaît sur LinkedIn 
+COMPANY_ID = "9183372" # ID LinkedIn de l'entreprise se trouve dans l'url de recherche de personnes travaillant dans l'entreprise ex : https://www.linkedin.com/search/results/people/?keywords=trader&origin=FACETED_SEARCH&currentCompany=%5B%229183372%22%5D -> 9183372
+JOB_TITLES = ["Trader"]
 
 # Configuration initiale
 def setup_driver():
