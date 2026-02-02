@@ -32,14 +32,10 @@ Tu peux les exporter dans le terminal **avant** d’exécuter le script :
 ```bash
 export LINKEDIN_EMAIL="ton.email@domaine.com"
 export LINKEDIN_PASSWORD="ton_mot_de_passe"
-export LINKEDIN_COMPANY_NAME="Touton"
-export LINKEDIN_COMPANY_ID="9183372"
-export LINKEDIN_JOB_TITLES="Trader"
 ```
 
 Notes :
-- `LINKEDIN_JOB_TITLES` peut contenir plusieurs rôles séparés par des virgules, ex: `Trader,Analyst`.
-- Si tu ne définis pas ces variables, le script utilise des valeurs par défaut définies en haut de `mailling/scrapper.py`.
+- Si tu ne définis pas ces variables, le script utilise des valeurs par défaut définies en haut de des scriptes.
 
 ## 4) (Optionnel) Définir le chemin de Chrome/Chromedriver
 
